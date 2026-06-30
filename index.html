@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Ching Number Divination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔮 I Ching Number Divination</h1>
+            <p class="subtitle">Ancient Wisdom meets Modern Numbers</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <h2>Enter Your Numbers</h2>
+                <p class="instructions">Think of any three numbers. Each number should be different or related to your question.</p>
+
+                <div class="input-group">
+                    <label for="num1">First Number</label>
+                    <input type="number" id="num1" placeholder="e.g., 543" min="1">
+                </div>
+
+                <div class="input-group">
+                    <label for="num2">Second Number</label>
+                    <input type="number" id="num2" placeholder="e.g., 835" min="1">
+                </div>
+
+                <div class="input-group">
+                    <label for="num3">Third Number</label>
+                    <input type="number" id="num3" placeholder="e.g., 556" min="1">
+                </div>
+
+                <button onclick="divinate()" class="btn-primary">🔮 Cast Your Hexagram</button>
+            </div>
+
+            <div id="result" class="result-section" style="display: none;">
+                <div class="hexagram-card">
+                    <h2 id="hexagram-name">Hexagram 56 - The Wanderer</h2>
+                    <p id="hexagram-chinese" class="chinese"></p>
+                    <p id="hexagram-number"></p>
+
+                    <div class="reading">
+                        <h3>📖 Your Reading</h3>
+                        <div id="hexagram-meaning"></div>
+
+                        <h3>🎯 Moving Line</h3>
+                        <div id="moving-line"></div>
+
+                        <h3>💡 Guidance</h3>
+                        <div id="guidance"></div>
+                    </div>
+                </div>
+
+                <div class="upgrade-section">
+                    <p>Want a detailed AI-powered reading?</p>
+                    <button onclick="upgrade()" class="btn-upgrade">Upgrade for $5</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 I Ching Number Divination</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
