@@ -1,176 +1,81 @@
-/* I Ching Number Divination - Style */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    min-height: 100vh;
-    color: #e4e4e4;
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    padding: 40px 0;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    color: #ffd700;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
-.subtitle {
-    font-size: 1.2rem;
-    color: #a0a0a0;
-}
-
-.input-section, .result-section {
-    background: rgba(255,255,255,0.05);
-    border-radius: 20px;
-    padding: 30px;
-    margin-bottom: 30px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.1);
-}
-
-.input-section h2, .result-section h2 {
-    color: #ffd700;
-    margin-bottom: 10px;
-}
-
-.instructions {
-    color: #a0a0a0;
-    margin-bottom: 20px;
-    font-size: 0.95rem;
-}
-
-.input-group {
-    margin-bottom: 20px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 8px;
-    color: #ccc;
-    font-weight: 600;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 15px;
-    font-size: 1.2rem;
-    border: 2px solid rgba(255,215,0,0.3);
-    border-radius: 10px;
-    background: rgba(0,0,0,0.3);
-    color: #fff;
-    transition: all 0.3s;
-}
-
-.input-group input:focus {
-    outline: none;
-    border-color: #ffd700;
-    box-shadow: 0 0 15px rgba(255,215,0,0.3);
-}
-
-.btn-primary {
-    width: 100%;
-    padding: 18px 30px;
-    font-size: 1.3rem;
-    font-weight: bold;
-    background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
-    color: #1a1a2e;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s;
-    margin-top: 10px;
-}
-
-.btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(255,215,0,0.4);
-}
-
-.hexagram-card {
-    background: rgba(0,0,0,0.3);
-    border-radius: 15px;
-    padding: 25px;
-    margin-bottom: 20px;
-}
-
-.hexagram-card h2 {
-    color: #ffd700;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.chinese {
-    color: #ff8c00;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.reading h3 {
-    color: #ffd700;
-    margin: 20px 0 10px;
-    font-size: 1.2rem;
-}
-
-.reading div {
-    color: #ddd;
-    line-height: 1.8;
-}
-
-.upgrade-section {
-    text-align: center;
-    padding: 20px;
-    background: rgba(255,215,0,0.1);
-    border-radius: 15px;
-    margin-top: 20px;
-}
-
-.upgrade-section p {
-    margin-bottom: 15px;
-    color: #a0a0a0;
-}
-
-.btn-upgrade {
-    padding: 15px 40px;
-    font-size: 1.1rem;
-    background: transparent;
-    color: #ffd700;
-    border: 2px solid #ffd700;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.btn-upgrade:hover {
-    background: #ffd700;
-    color: #1a1a2e;
-}
-
-footer {
-    text-align: center;
-    padding: 30px;
-    color: #666;
-    font-size: 0.9rem;
-}
-
-@media (max-width: 600px) {
-    header h1 { font-size: 1.8rem; }
-    .input-section, .result-section { padding: 20px; }
-    .btn-primary { font-size: 1.1rem; }
-}
+a/C:\temp\style.css → b/C:\temp\style.css
+@@ -0,0 +1,176 @@
++/* I Ching Number Divination - Style */
++* {
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++
++body {
++    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
++    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
++    min-height: 100vh;
++    color: #e4e4e4;
++    line-height: 1.6;
++}
++
++.container {
++    max-width: 800px;
++    margin: 0 auto;
++    padding: 20px;
++}
++
++header {
++    text-align: center;
++    padding: 40px 0;
++}
++
++header h1 {
++    font-size: 2.5rem;
++    color: #ffd700;
++    margin-bottom: 10px;
++    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
++}
++
++.subtitle {
++    font-size: 1.2rem;
++    color: #a0a0a0;
++}
++
++.input-section, .result-section {
++    background: rgba(255,255,255,0.05);
++    border-radius: 20px;
++    padding: 30px;
++    margin-bottom: 30px;
++    backdrop-filter: blur(10px);
++    border: 1px solid rgba(255,255,255,0.1);
++}
++
++.input-section h2, .result-section h2 {
++    color: #ffd700;
++    margin-bottom: 10px;
++}
++
++.instructions {
++    color: #a0a0a0;
++    margin-bottom: 20px;
++    font-size: 0.95rem;
++}
++
++.input-group {
++    margin-bottom: 20px;
++}
++
++.input-group label {
++    display: block;
++    margin-bottom: 8px;
++    color: #ccc;
++    font-weight: 600;
++}
++
++.input-group input {
++    width: 100%;
++    padding: 15px;
++    font-size: 1.2rem;
++    border: 2px solid rgba(255,215,0,0.3);
++    border-radius: 10px;
++    background: rgba(0,0,0,0.3);
++    color: #fff;
++    transition: all 0.3s;
+… omitted 98 diff line(s) across 1 additional file(s)/section(s)
